@@ -13,3 +13,13 @@ h1 {
 	font-size: 3em;
 	margin-top: 20px;
 }
+
+main p {
+	margin: auto;
+	width: 90%;
+	font-size: 18px;
+	line-height: 1.6em;
+	text-align: justify;
+	margin-bottom: 2%;
+}
+
