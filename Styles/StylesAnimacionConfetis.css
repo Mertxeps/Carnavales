@@ -1,10 +1,3 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: #f0f0f0;
-} */
-			
 .confetti-wrapper {
     position: fixed;
     top: 0;
@@ -28,8 +21,8 @@
 			
 .confetti-piece {
     position: absolute;
-    width: 10px;
-    height: 20px;
+    width: 12px;
+    height: 26px;
     background: var(--confetti-color, red);
     opacity: 0.9;
     animation: confetti-fall var(--fall-duration, 4s) linear infinite;
