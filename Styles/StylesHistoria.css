@@ -2,9 +2,3 @@ header ul li:nth-of-type(1) {
 	text-decoration: overline;
 }
 
-main p {
-	margin: auto;
-	width: 90%;
-	font-size: 18px;
-}
-
