@@ -8,3 +8,84 @@ header ul li:nth-of-type(3) {
     list-style-type: circle;
     margin-left: 6%;
 }  
+
+.ImagenesLugares {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border: 2px solid #000000;
+    border-radius: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.CartelesCarnavaCadiz {
+    display: flex;
+    justify-content: center;     /* Centra los figure horizontalmente */
+    gap: 5%;
+    margin: 15px auto;           /* Centra el contenedor */
+    width: 40%;
+    border: 2px solid #000000;
+    border-radius: 2%;
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.CartelesCarnavaCadiz figure {
+    text-align: center;
+}
+
+.CartelesCarnavaCadiz img {
+    max-width: 100%;          /* Escala la imagen sin romper el layout */
+    max-height: 712px;        /* Limita la altura máxima */
+}
+
+.CartelesCarnavaCadiz figcaption {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ImagenLuminoso {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 2px solid #000000;
+    border-radius: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ImagenDesfileRio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 2px solid #000000;
+    border-radius: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+.ImagenMascaraSol {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 2px solid #000000;
+    border-radius: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#DiversidadMusical {
+    margin-bottom: 2%;
+}
