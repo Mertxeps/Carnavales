@@ -1,3 +1,40 @@
 header ul li:nth-of-type(4) {
 	text-decoration: overline;
 }
+
+main p {
+    margin: auto;
+    width: 90%;
+    font-size: 18px;
+    line-height: 1.6em;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ListaChirigotas {
+    margin: auto;
+    width: 90%;
+    font-size: 18px;
+    line-height: 1.6em;
+    text-align: justify;
+    margin-bottom: 2%;
+    margin-top: 0;
+    margin-left: 10%;
+    list-style-type: circle;
+}
+
+.video-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.VideosChirigotas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 2%;
+}
